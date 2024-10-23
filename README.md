@@ -15,4 +15,4 @@ If our paper helps your research or work, please consider citing our paper. The 
 }
 ```
 ## Acknowledgments
-Some code is sourced from SUPIR and SeeSR. We appreciate their excellent work.
+Some code is sourced from [SUPIR]([http://link-to-supir](https://github.com/Fanghua-Yu/SUPIR)) and SeeSR. We appreciate their excellent work.
