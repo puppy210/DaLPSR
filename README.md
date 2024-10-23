@@ -14,5 +14,6 @@ If our paper helps your research or work, please consider citing our paper. The 
   year={2024}
 }
 ```
+
 ## Acknowledgments
-Some code is sourced from [SUPIR](https://github.com/Fanghua-Yu/SUPIR) and SeeSR. We appreciate their excellent work.
+Some code is sourced from [SUPIR](https://github.com/Fanghua-Yu/SUPIR) and [SeeSR](https://github.com/cswry/SeeSR). We appreciate their excellent work.
