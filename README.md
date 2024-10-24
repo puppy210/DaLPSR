@@ -1,6 +1,14 @@
-# DaLPSR
-### DaLPSR: Leverage Degradation-Aligned Language Prompt for Real-World Image Super-Resolution
-### Visual Examples
+# DaLPSR: Leverage Degradation-Aligned Language Prompt for Real-World Image Super-Resolution
+
+[Paper](https://arxiv.org/pdf/2406.16477)
+<a href='https://arxiv.org/pdf/2406.16477'><img src='https://img.shields.io/badge/arXiv-2406.16477-b31b1b.svg'></a> &nbsp;&nbsp;
+
+## Overview framework
+![DaLPSR](figs/framework.png)
+
+Image super-resolution pursuits reconstructing high-fidelity high-resolution counterpart for low-resolution (LR) image. In recent years, diffusion-based models have garnered significant attention due to their capabilities with rich prior knowledge. The success of diffusion models based on general text prompts has validated the effectiveness of textual control in the field of text2image. However, given the severe degradation commonly presented in low-resolution images, coupled with the randomness characteristics of diffusion models, current models struggle to adequately discern semantic and degradation information within severely degraded images. This often leads to obstacles such as semantic loss, visual artifacts, and visual hallucinations, which pose substantial challenges for practical use. To address these challenges, this paper proposes to leverage degradation-aligned language prompt for accurate, fine-grained, and high-fidelity image restoration. Complementary priors including semantic content descriptions and degradation prompts are explored. Specifically, on one hand, image-restoration prompt alignment decoder is proposed to automatically discern the degradation degree of LR images, thereby generating beneficial degradation priors for image restoration. On the other hand, much richly tailored descriptions from pretrained multimodal large language model elicit high-level semantic priors closely aligned with human perception, ensuring fidelity control for image restoration. Comprehensive comparisons with state-of-the-art methods have been done on several popular synthetic and real-world benchmark datasets. The quantitative and qualitative analysis have demonstrated that the proposed method achieves a new state-of-the-art perceptual quality level, especially in real-world cases based on reference-free metrics.
+
+## Visual Examples
 ![image](https://github.com/puppy210/DaLPSR/blob/main/figs/result_real.png)
 ![image](https://github.com/puppy210/DaLPSR/blob/main/figs/result_syn.png)
 
