@@ -12,6 +12,19 @@ Image super-resolution pursuits reconstructing high-fidelity high-resolution cou
 ![image](https://github.com/puppy210/DaLPSR/blob/main/figs/result_real.png)
 ![image](https://github.com/puppy210/DaLPSR/blob/main/figs/result_syn.png)
 
+## Installation
+```
+## git clone this repository
+git clone https://github.com/puppy210/DaLPSR.git
+cd DalPSR
+
+# create an environment with python >= 3.9
+conda create -n DalPSR python=3.9
+conda activate DalPSR
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
 ## Citations
 If our paper helps your research or work, please consider citing our paper. The following are BibTeX references:
 ```bibtex
