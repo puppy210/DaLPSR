@@ -13,6 +13,7 @@ Image super-resolution pursuits reconstructing high-fidelity high-resolution cou
 ![image](https://github.com/puppy210/DaLPSR/blob/main/figs/result_syn.png)
 
 ## Installation
+1. Clone this Repo and Create Conda Environment and Install Package
 ```
 ## git clone this repository
 git clone https://github.com/puppy210/DaLPSR.git
@@ -24,6 +25,12 @@ conda activate DalPSR
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
+2. Download Pre-trained Models
+    #### Pre-trained Models:
+    * `stable-diffusion-2-base`: [stable-diffusion-2-base](https://huggingface.co/stabilityai/stable-diffusion-2-base/tree/main)
+    * `RAM`: [RAM-Swin-Large-14M](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth)
+    * `LLaVA`: [LLaVA](https://github.com/haotian-liu/LLaVA)
 
 ## Citations
 If our paper helps your research or work, please consider citing our paper. The following are BibTeX references:
